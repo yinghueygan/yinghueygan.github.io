@@ -6,8 +6,9 @@ const skills = [
   { cat: 'Frameworks', items: ['ASP.NET Core', 'ASP.NET MVC', 'Angular', 'Flask'] },
   { cat: 'Frontend', items: ['HTML5', 'CSS3', 'Bootstrap 5', 'jQuery', 'AG Grid', 'DataTables'] },
   { cat: 'Backend', items: ['Web API', 'RESTful API', 'JSON'] },
-  { cat: 'Databases', items: ['MS SQL Server', 'Oracle SQL'] },
-  { cat: 'DevOps', items: ['Git', 'TFS', 'CI/CD', 'IIS Hosting'] },
+  { cat: 'Databases', items: ['Microsoft SQL Server', 'Oracle SQL'] },
+  { cat: 'DevOps & Cloud', items: ['Git', 'TFS', 'CI/CD', 'IIS Hosting', 'AWS'] },
+  { cat: 'Testing', items: ['Unit Testing', 'Debugging', 'Troubleshooting'] },
 ];
 
 const stats = [
@@ -91,6 +92,7 @@ export default function Home({ navigate }) {
                 '"Full Stack Developer"',
                 '"ASP.NET Engineer"',
                 '"Problem Solver"',
+                '"Freelancer"',
                 '"UI/UX Enthusiast"',
               ]} />
             </div>
