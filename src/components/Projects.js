@@ -7,8 +7,8 @@ const projects = [
     title: 'Application Versioning & Tracking System',
     category: 'Enterprise',
     status: 'Production',
-    year: '2024',
-    description: 'A centralized platform built from the ground up to manage software release cycles, project stages, and developer assignments within the organization.',
+    year: '2025',
+    description: 'A centralized platform built from the ground up to manage software release cycles, project stages, and developer assignments within the IT Department.',
     highlights: [
       'Built centralized tracking for software release cycles & developer assignments',
       'Dynamic dashboards using AG Grid & DataTables for real-time version tracking',
@@ -23,7 +23,7 @@ const projects = [
     title: 'Enterprise System Modernization',
     category: 'Enterprise',
     status: 'Production',
-    year: '2024',
+    year: '2024 - 2025',
     description: 'Revamped legacy internal and external company systems into modern ASP.NET Core 8/10 architectures, significantly improving performance, security, and maintainability.',
     highlights: [
       'Migrated legacy systems to ASP.NET Core 8/10 architecture',
@@ -36,6 +36,22 @@ const projects = [
   },
   {
     id: 3,
+    title: 'Interior Designer Portfolio',
+    category: 'Freelance',
+    status: 'Production',
+    year: '2024',
+    description: 'yinjyegan portfolio',
+    highlights: [
+      'Migrated legacy systems to ASP.NET Core 8/10 architecture',
+      'Responsive UI with Bootstrap 5 & CSS3 for cross-device accessibility',
+      'Optimized complex SQL queries & stored procedures to reduce data latency',
+    ],
+    tech: ['HTML5', 'PHP', 'MSSQL', 'Bootstrap 5', 'CSS3'],
+    github: 'https://github.com/yinghueygan',
+    color: '#7c3aed',
+  },
+  {
+    id: 4,
     title: 'Malaysian Skin Type Reader (FYP)',
     category: 'AI / ML',
     status: 'Completed',
@@ -51,7 +67,7 @@ const projects = [
     color: '#f59e0b',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Food Ordering System',
     category: 'Web App',
     status: 'Internship',
