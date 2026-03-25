@@ -197,10 +197,10 @@ export default function Home({ navigate }) {
           <div className="divider" />
           <div className="quick-cards">
             {[
-              { page: 'projects', icon: '◈', title: 'Projects', desc: 'App Versioning System, Enterprise Modernization, AI Skin Reader' },
-              { page: 'experience', icon: '◉', title: 'Experience', desc: 'Software Engineer at Public Mutual Berhad · Internship at MMU' },
+              { page: 'projects', icon: '◈', title: 'Projects', desc: 'App Versioning System, Enterprise Modernization, AI Skin Type Reader' },
+              { page: 'experience', icon: '◉', title: 'Experience', desc: 'Software Engineer at Public Mutual Berhad · Internship at Multimedia University' },
               { page: 'education', icon: '◎', title: 'Education', desc: 'B.IT Security Technology, Multimedia University · CGPA 3.99' },
-              { page: 'awards', icon: '★', title: 'Awards', desc: 'First Class Honours · Merit Scholarship · CITIC Publication' },
+              { page: 'awards', icon: '★', title: 'Awards', desc: 'First Class Honours · Dean's List Awaard · Merit Scholarship · CITIC & JIWE Publication' },
             ].map((item, i) => (
               <button key={i} className="quick-card" onClick={() => navigate(item.page)} style={{ animationDelay: `${i * 0.1}s` }}>
                 <span className="qc-icon">{item.icon}</span>
