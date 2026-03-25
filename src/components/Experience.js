@@ -33,7 +33,7 @@ const experiences = [
         detail: 'Contributed to Agile workflows and streamlined delivery via CI/CD pipelines (Git/TFS). Created technical documentation and system diagrams for stakeholders.',
       },
     ],
-    skills: ['C#', 'ASP.NET Core', 'MVC', 'JavaScript', 'jQuery', 'Oracle SQL', 'MS SQL', 'AG Grid', 'DataTables', 'Bootstrap 5', 'Git', 'TFS', 'CI/CD'],
+    skills: ['C#', 'ASP.NET Core', 'MVC', 'RESTful Api', 'JavaScript', 'jQuery', 'Oracle SQL', 'MS SQL', 'AG Grid', 'DataTables', 'Bootstrap 5', 'Git', 'TFS', 'CI/CD', 'Unit Testing'],
   },
   {
     id: 2,
