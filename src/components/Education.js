@@ -11,13 +11,17 @@ const education = [
     honor: 'First Class Honour',
     color: '#00e5ff',
     highlights: [
-      'Final Year Project: Malaysian Skin Type Reader using YOLOv5 AI (87.3% precision)',
-      'Active position in IT Society English Language Club',
+      'Final Year Project: Malaysian Skin Type Reader using YOLOv5 model (87.3% precision)',
+      'Active position in IT Society and English Language Club',
       'Dean\'s List holder from 2020 – 2023',
       'Merit Scholarship holder throughout entire programme',
-      'CITIC 2023 research publication',
+      'CITIC 2023 research publication, JIWE Publication',
+      'ECA MMU Chapter Award for Security Technology',
+      'Participate in iNVENTX 2023, Nexagate CTF 2022',
     ],
-    courses: ['Data Structures & Algorithms', 'Cybersecurity Principles', 'Machine Learning', 'Database Systems', 'Web Development', 'Software Engineering', 'Network Security', 'Operating Systems'],
+    courses: ['Data Structures & Algorithms', 'Machine Learning', 'Database Systems', 'Web Development', 'Software Engineering', 'Operating Systems', 'Computer Programming',
+              'Computer Architecture and Organisation', 'Discrete Mathematics & Probability', 'Computer Networks', 'Object-Oriented Programming', 'System Analysis & Design', 
+              'Computer Security', 'Ethical Hacking', 'Applied Cryptography','Cloud Computing', 'Digital Forensics', 'Python for Security'],
   },
   {
     degree: 'Foundation in Information Technology',
@@ -28,12 +32,12 @@ const education = [
     honor: 'Dean\'s List',
     color: '#7c3aed',
     highlights: [
-      'ECA MMU Chapter Award for Security Technology',
       'Dean\'s List Award recipient',
       'Merit Scholarship holder',
       'Strong foundation in IT fundamentals and programming',
     ],
-    courses: ['Programming Fundamentals', 'Mathematics', 'English for IT', 'Computer Organisation', 'Discrete Mathematics'],
+    courses: ['Programming Fundamentals', 'Algebra, Probability, Statistics & Calculus', 'Computer Architecture & Operating System', 'Trigonometry', 'Critical Thinking', 
+              'Physics', 'Problem Solving & Programming', 'Communicative English', 'Computer Applications', 'Mini IT Project'],
   },
 ];
 
