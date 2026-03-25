@@ -13,7 +13,6 @@ const skills = [
 const stats = [
   { value: '2+', label: 'Years Experience' },
   { value: '50+', label: 'Issues Debugged' },
-  { value: '99.99%', label: 'App Uptime' },
   { value: '3.99', label: 'CGPA' },
 ];
 
@@ -98,7 +97,7 @@ export default function Home({ navigate }) {
             <p className="hero-bio">
               Building robust enterprise web applications with <span className="highlight">.NET</span>, 
               designing performant databases, and crafting clean frontends. 
-              Based in <span className="highlight">Malaysia</span> · Open to opportunities.
+              Open to opportunities.
             </p>
             <div className="hero-cta">
               <button className="btn-primary" onClick={() => navigate('projects')}>
@@ -132,7 +131,7 @@ export default function Home({ navigate }) {
               <div className="avatar-ring" />
               <div className="avatar-ring ring2" />
               <div className="avatar-core">
-                <span className="avatar-initials">GYH</span>
+                <span className="avatar-initials">Software Engineer</span>
               </div>
               <div className="orbit-dot" style={{ '--angle': '0deg' }} />
               <div className="orbit-dot" style={{ '--angle': '120deg' }} />
@@ -142,14 +141,16 @@ export default function Home({ navigate }) {
               <div className="code-dots">
                 <span /><span /><span />
               </div>
-              <pre className="code-snippet">{`// Current stack
-const me = {
-  name: "Gan Ying Huey",
-  role: "Full Stack Dev",
-  stack: ["C#", ".NET", "SQL"],
-  cgpa: 3.99,
-  uptime: "99.99%"
-}`}</pre>
+              <pre className="code-snippet">
+                {`// Current stack
+                  const me = {
+                    name: "Gan Ying Huey",
+                    role: "Full Stack Dev",
+                    stack: ["C#", ".NET", "SQL"],
+                    cgpa: 3.99
+                  }
+                `}
+            </pre>
             </div>
           </div>
         </div>
