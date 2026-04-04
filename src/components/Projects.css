@@ -1,0 +1,199 @@
+.projects-page { padding: 3rem 2rem 5rem; }
+.page-wrap { max-width: 1200px; margin: 0 auto; }
+
+.page-header { margin-bottom: 2.5rem; }
+.page-subtitle {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text2);
+  max-width: 560px;
+  margin-top: 0.75rem;
+  line-height: 1.7;
+}
+
+/* Filter */
+.filter-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text2);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.05em;
+}
+.filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+.filter-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+  font-weight: 700;
+}
+
+/* Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  animation: fadeUp 0.5s ease forwards;
+  opacity: 0;
+}
+
+.project-card:hover {
+  border-color: var(--card-color, var(--accent));
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3), 0 0 30px rgba(0,229,255,0.05);
+}
+
+.card-top-bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--card-color, var(--accent));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+.project-card:hover .card-top-bar { transform: scaleX(1); }
+
+.card-header { margin-bottom: 1rem; }
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.card-category {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--card-color, var(--accent));
+}
+
+.card-status {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.1em;
+}
+.card-status.status-production { background: rgba(16,185,129,0.15); color: #10b981; }
+.card-status.status-completed  { background: rgba(0,229,255,0.1); color: var(--accent); }
+.card-status.status-internship { background: rgba(245,158,11,0.1); color: var(--accent3); }
+
+.card-year {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text3);
+  margin-left: auto;
+}
+
+.card-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.card-desc {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text2);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.card-highlights {
+  list-style: none;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.card-highlights li {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text2);
+  line-height: 1.5;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.bullet {
+  color: var(--card-color, var(--accent));
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  margin-top: 2px;
+}
+
+.card-footer {
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tech-stack { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+
+.tech-tag {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--text3);
+}
+
+.github-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s;
+  align-self: flex-start;
+  letter-spacing: 0.05em;
+}
+.github-btn:hover {
+  background: rgba(0,229,255,0.1);
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .projects-page { padding: 2rem 1.25rem 4rem; }
+  .projects-grid { grid-template-columns: 1fr; }
+}
