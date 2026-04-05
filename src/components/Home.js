@@ -82,10 +82,10 @@ export default function Home({ navigate }) {
             <p className="hero-greeting">
               <span className="greeting-tag">Hello, World! 👋</span>
             </p>
-            <h1 className="hero-name">
+            <h2 className="hero-name">
               Gan<br />
               <span className="name-accent">Ying Huey</span>
-            </h1>
+            </h2>
             <div className="hero-role">
               <span className="role-prefix">const role = </span>
               <TypeWriter texts={[
@@ -106,25 +106,16 @@ export default function Home({ navigate }) {
                 <span>View Projects</span>
                 <span className="btn-arrow">→</span>
               </button>
-              <a
-                className="btn-secondary"
-                href="https://github.com/yinghueygan"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="github-icon">⌥</span>
+              <a className="btn-secondary" href="https://github.com/yinghueygan" target="_blank" rel="noreferrer">
                 GitHub
+                <span className="github-icon">⌥</span>
               </a>
               <a className="btn-secondary" href="mailto:ganyinghuey@gmail.com">
-                ✉ Contact
+                Contact ✉
               </a>
-            </div>
-            <div className="hero-links">
-              <a href="https://linkedin.com/in/gan-ying-huey-9512a8295" target="_blank" rel="noreferrer" className="social-link">LinkedIn ↗</a>
-              <span className="sep">·</span>
-              <a href="https://github.com/yinghueygan" target="_blank" rel="noreferrer" className="social-link">GitHub ↗</a>
-              <span className="sep">·</span>
-              <span className="social-link no-link">📍 Malaysia</span>
+              <a className="btn-secondary" href="https://linkedin.com/in/gan-ying-huey-9512a8295" target="_blank" rel="noreferrer">
+              LinkedIn ↗
+              </a>
             </div>
           </div>
 
@@ -145,12 +136,12 @@ export default function Home({ navigate }) {
               </div>
               <pre className="code-snippet">
                 {`// Current stack
-                  const me = {
-                    name: "Gan Ying Huey",
-                    role: "Full Stack Dev",
-                    stack: ["C#", ".NET", "SQL"],
-                    cgpa: 3.99
-                  }
+    const me = {
+      name: "Gan Ying Huey",
+      role: "Full Stack Dev",
+      stack: ["C#", ".NET", "SQL"],
+      cgpa: 3.99
+    }
                 `}
             </pre>
             </div>
@@ -192,7 +183,7 @@ export default function Home({ navigate }) {
       </section>
 
       {/* Quick Nav */}
-      <section className="quick-nav-section">
+      <section>
         <div className="section-wrap">
           <p className="section-label">Explore</p>
           <h2 className="section-title">What I've Built</h2>

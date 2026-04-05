@@ -84,7 +84,7 @@ const projects = [
   },
 ];
 
-const categories = ['All', 'Enterprise', 'AI / ML', 'Web App'];
+const categories = ['All', 'Enterprise', 'AI / ML', 'Web App', 'Freelance'];
 
 export default function Projects() {
   const [filter, setFilter] = useState('All');

@@ -1,4 +1,4 @@
-.experience-page { padding: 3rem 2rem 5rem; }
+.experience-page { padding: 1rem 2rem 2rem; }
 .page-wrap { max-width: 900px; margin: 0 auto; }
 .page-header { margin-bottom: 3rem; }
 .page-subtitle {
@@ -31,7 +31,7 @@
 /* Card */
 .exp-card {
   position: relative;
-  padding-left: 50px;
+  padding: 0px 50px 50px;
   opacity: 0;
   transform: translateX(-20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -80,7 +80,7 @@
 
 .exp-type {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   padding: 2px 8px;
@@ -97,7 +97,7 @@
 
 .exp-location {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   color: var(--text3);
 }
 
@@ -118,7 +118,7 @@
 
 .exp-duration-badge {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   padding: 4px 12px;
   border: 1px solid var(--exp-color, var(--accent));
   color: var(--exp-color, var(--accent));
@@ -145,18 +145,16 @@
 .resp-label {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-family: var(--font-display);
+  font-size: 0.88rem;
   color: var(--text);
-  margin-bottom: 0.3rem;
 }
 
-.resp-icon { font-size: 0.65rem; }
+.resp-icon { font-size: 1.2rem; }
 
 .resp-detail {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-family: var(--font-display);
+  font-size: 0.82rem;
   color: var(--text2);
   line-height: 1.7;
   padding-left: 1.1rem;
@@ -173,7 +171,7 @@
 
 .exp-skill-tag {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   padding: 3px 10px;
   background: rgba(255,255,255,0.04);
   border: 1px solid var(--border);

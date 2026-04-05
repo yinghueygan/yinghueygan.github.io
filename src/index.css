@@ -8,14 +8,19 @@
   --accent2: #7c3aed;
   --accent3: #f59e0b;
   --text: #e8e8f0;
-  --text2: #9090a8;
-  --text3: #5a5a78;
-  --font-display: 'Syne', sans-serif;
+  --text2: #cfcfea;
+  --text3: #e0e0ef;
+  --font-display: sans-serif;
   --font-mono: 'Space Mono', monospace;
   --glow: 0 0 40px rgba(0,229,255,0.15);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+* {
+  font-family: var(--font-display);
+  letter-spacing: 0.03em;
+}
 
 html { scroll-behavior: smooth; }
 
@@ -110,7 +115,7 @@ body {
 
 .section-title {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: 50px;
   font-weight: 800;
   line-height: 1.1;
   color: var(--text);

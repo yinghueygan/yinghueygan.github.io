@@ -42,7 +42,6 @@ export default function Navbar({ activePage, navigate }) {
               onClick={() => handleNav(item.id)}
               style={{ animationDelay: `${i * 0.05}s` }}
             >
-              <span className="nav-icon">{item.icon}</span>
               <span>{item.label}</span>
               {activePage === item.id && <span className="nav-indicator" />}
             </button>
