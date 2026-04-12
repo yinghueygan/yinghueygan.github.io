@@ -37,6 +37,31 @@ const experiences = [
   },
   {
     id: 2,
+    title: 'Freelance Web Developer',
+    company: 'Self-Employed',
+    type: 'Freelance',
+    period: 'Jan 2024 – Mar 2024',
+    duration: '3 months',
+    location: 'Malaysia (Remote)',
+    color: '#f59e0b',
+    responsibilities: [
+      {
+        label: 'Interior Designer Portfolio Website',
+        detail: 'Designed and developed a full portfolio website for an interior designer client, showcasing her projects with photo galleries, descriptions, and project details.',
+      },
+      {
+        label: 'Admin Dashboard',
+        detail: 'Built a secure PHP admin panel with login/logout authentication, allowing the client to add, edit, and delete username/password credentials independently.',
+      },
+      {
+        label: 'Multi-Page Website',
+        detail: 'Developed 4 pages — Home, Portfolio (project photo gallery), About (experience & awards), and Contact — with responsive CSS layouts and smooth JavaScript interactions.',
+      },
+    ],
+    skills: ['PHP', 'CSS3', 'JavaScript', 'HTML5', 'MySQL', 'Admin Panel', 'Authentication', 'Responsive Design'],
+  },
+  {
+    id: 3,
     title: 'IT Researcher (Intern)',
     company: 'Multimedia University',
     type: 'Internship',

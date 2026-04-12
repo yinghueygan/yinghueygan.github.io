@@ -39,10 +39,11 @@
 
 .banner-label {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--text3);
+  font-weight: bold;
 }
 
 /* Filter */
@@ -135,7 +136,7 @@
 
 .award-category {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--aw-color, var(--accent));
@@ -146,7 +147,7 @@
 
 .award-year {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   color: var(--text3);
 }
 
@@ -165,18 +166,20 @@
 }
 
 .award-desc {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-family: var(--font-display);
+  font-size: 0.8rem;
   color: var(--text2);
   line-height: 1.65;
+  padding-top: 12px;
 }
 
 .award-detail {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-family: var(--font-display);
+  font-size: 0.72rem;
   color: var(--text3);
   font-style: italic;
   line-height: 1.5;
+  padding-top: 12px;
 }
 
 .award-link {

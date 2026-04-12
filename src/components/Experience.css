@@ -31,7 +31,7 @@
 /* Card */
 .exp-card {
   position: relative;
-  padding: 0px 50px 50px;
+  padding-left: 50px;
   opacity: 0;
   transform: translateX(-20px);
   transition: opacity 0.5s ease, transform 0.5s ease;

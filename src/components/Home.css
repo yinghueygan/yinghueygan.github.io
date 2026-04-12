@@ -296,7 +296,7 @@
 /* Skills */
 .skills-section { padding: 3rem 2rem 3rem; }
 
-.section-wrap { max-width: 1200px; margin: 0 auto; }
+.section-wrap { padding: 3rem 2rem 3rem; }
 
 .skills-grid {
   display: grid;

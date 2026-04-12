@@ -33,7 +33,7 @@ export default function App() {
         <PageComponent navigate={navigate} />
       </main>
       <footer className="footer">
-        <span className="footer-text">© 2025 Gan Ying Huey — Built with React · Hosted on GitHub Pages</span>
+        <span className="footer-text">© 2026 Gan Ying Huey — Built with React · Hosted on GitHub Pages</span>
       </footer>
     </div>
   );

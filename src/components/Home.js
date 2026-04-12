@@ -15,6 +15,7 @@ const stats = [
   { value: '2+', label: 'Years Experience' },
   { value: '50+', label: 'Issues Debugged' },
   { value: '3.99', label: 'CGPA' },
+  { value: '10+', label: 'Technologies Used' },
 ];
 
 function TypeWriter({ texts, speed = 80 }) {
@@ -190,8 +191,8 @@ export default function Home({ navigate }) {
           <div className="divider" />
           <div className="quick-cards">
             {[
-              { page: 'projects', icon: '◈', title: 'Projects', desc: 'App Versioning System, Enterprise Modernization, AI Skin Type Reader' },
-              { page: 'experience', icon: '◉', title: 'Experience', desc: 'Software Engineer at Public Mutual Berhad · Internship at Multimedia University' },
+              { page: 'projects', icon: '◈', title: 'Projects', desc: 'App Versioning System · Enterprise Modernization · Interior Designer Portfolio Website · AI Skin Type Reader' },
+              { page: 'experience', icon: '◉', title: 'Experience', desc: 'Software Engineer at Public Mutual Berhad · Freelancer · Internship at Multimedia University' },
               { page: 'education', icon: '◎', title: 'Education', desc: 'B.IT Security Technology, Multimedia University · CGPA 3.99' },
               { page: 'awards', icon: '★', title: 'Awards', desc: 'First Class Honours · Dean\'s List Award · Merit Scholarship · CITIC & JIWE Publication' },
             ].map((item, i) => (
