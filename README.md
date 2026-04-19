@@ -6,8 +6,8 @@
 
 ## 🔗 Links
 
-- 🌐 **Live Site:** [yourusername.github.io](https://yinghueygan.github.io/)
-- 💻 **GitHub:** [github.com/yourusername/portfolio](https://github.com/yinghueygan/yinghueygan.github.io)
+- 🌐 **Live Site:** [https://yinghueygan.github.io/](https://yinghueygan.github.io/)
+- 💻 **GitHub:** [https://github.com/yinghueygan/yinghueygan.github.io](https://github.com/yinghueygan/yinghueygan.github.io)
 
 ---
 
