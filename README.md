@@ -1,91 +1,20 @@
-# Gan Ying Huey — Portfolio
+# Gan Ying Huey — Full Stack Developer Portfolio
 
-A responsive, animated React portfolio for a Full Stack Developer. Built for free hosting on **GitHub Pages** or **Vercel/Netlify**.
-
----
-
-## 🚀 Quick Start
-
-### 1. Install dependencies
-```bash
-npm install
-```
-
-### 2. Run locally
-```bash
-npm start
-```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+> Personal portfolio website showcasing my projects, skills, and experience as a web developer.
 
 ---
 
-## 🌐 Deploy to GitHub Pages (Free)
+## 🔗 Links
 
-### Step 1 — Create a GitHub repo
-- Go to [github.com](https://github.com) and create a new repository named:
-  - `username.github.io` → your portfolio will live at `https://username.github.io`
-  - OR any name like `portfolio` → it'll live at `https://username.github.io/portfolio`
-
-### Step 2 — Update `package.json`
-Open `package.json` and update the `homepage` field:
-
-```json
-// If repo is username.github.io:
-"homepage": "https://yinghueygan.github.io"
-
-// If repo is named "portfolio":
-"homepage": "https://yinghueygan.github.io/portfolio"
-```
-
-### Step 3 — Push your code
-```bash
-git init
-git add .
-git commit -m "Initial portfolio"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git push -u origin main
-```
-
-### Step 4 — Deploy
-```bash
-npm run deploy
-```
-This builds the app and pushes it to a `gh-pages` branch automatically.
-
-### Step 5 — Enable GitHub Pages
-- Go to your repo on GitHub → **Settings** → **Pages**
-- Source: **Deploy from a branch** → select `gh-pages` → `/ (root)`
-- Click **Save**
-- Your site will be live in 1–2 minutes! ✅
+- 🌐 **Live Site:** [yourusername.github.io](https://yinghueygan.github.io/)
+- 💻 **GitHub:** [github.com/yourusername/portfolio](https://github.com/yinghueygan/yinghueygan.github.io)
 
 ---
 
-## ⚡ Alternative: Deploy to Vercel (Even Easier)
+## 📖 About
 
-1. Push code to GitHub
-2. Go to [vercel.com](https://vercel.com) → **New Project**
-3. Import your GitHub repo
-4. Click **Deploy** — done! Zero config needed.
+A personal portfolio website built to showcase my work and skills as a web developer. Designed to be clean, fast, and easy to navigate — with a focus on letting the projects speak for themselves.
 
-Free custom domain support included with Vercel.
-
----
-
-## 🎨 Customization
-
-### Update your GitHub links
-In `src/components/Projects.js`, update each project's `github` field to point to the actual repo:
-
-```js
-github: 'https://github.com/yinghueygan/your-actual-repo',
-```
-
-### Update your profile photo
-Replace the avatar initials in `src/components/Home.js` — or add an `<img>` tag inside `.avatar-core` with your actual photo.
-
-### Add/Edit projects
-Edit the `projects` array in `src/components/Projects.js`.
 
 ---
 
